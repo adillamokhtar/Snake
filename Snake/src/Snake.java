@@ -174,7 +174,7 @@ public class Snake {
     }
 
     public void resetDefaultValues() {
-        snakeBodyPart = new JButton[2000];
+        snakeBodyPart = new JButton[2001];
         totalBodyPart = SNAKE_LENGTH_DEFAULT;
         directionX = SNAKE_BODY_PART_SQURE;
         directionY = 0;
